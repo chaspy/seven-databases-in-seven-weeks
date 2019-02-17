@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  postgres:
+    build: .
+    image: chaspy/seven-dbs-postgres
+    ports:
+      - "5432:5432"
+
