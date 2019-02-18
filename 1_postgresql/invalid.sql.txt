@@ -1,0 +1,3 @@
+INSERT INTO countries VALUES ('uk','United Kingdom');'
+# ERROR:  重複キーが一意性制約"countries_country_name_key"に違反しています
+# DETAIL:  キー (country_name)=(United Kingdom) はすでに存在します。
